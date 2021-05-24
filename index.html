@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripeate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+  </head>
+  <body>
+    <!--HEADER STARTS-->
+    <header class="header">
+      <a href="" class="logo">Trip<span>eate</span></a>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="items">
+            <a class="links" href="#banner" onclick="toggleMenu();">Inicio</a>
+          </li>
+          <li class="items">
+            <a class="links" href="#about" onclick="toggleMenu();">Nosotros</a>
+          </li>
+          <li class="items">
+            <a class="links" href="#services" onclick="toggleMenu();"
+              >Servicios</a
+            >
+          </li>
+          <li class="items">
+            <a class="links" href="#galery" onclick="toggleMenu();">Galería</a>
+          </li>
+          <li class="items">
+            <a class="links" href="#team" onclick="toggleMenu();"
+              >Nuestro equipo</a
+            >
+          </li>
+          <li class="items">
+            <a class="links" href="#testimonial" onclick="toggleMenu();"
+              >Testimonios</a
+            >
+          </li>
+          <li class="items">
+            <a class="links" href="#contact" onclick="toggleMenu();"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--HEADER ENDS-->
+    <!--SECTION BANNER STARTS-->
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Aventúrate con nosotros</h2>
+        <p>¡Apasionate por el turismo y sus grandes aventura sostenible!</p>
+        <a class="btn" href="">Tripeate ya</a>
+      </div>
+    </section>
+    <!--SECTION BANNER ENDS-->
+    <!--SECTION ABOUT US STARTS-->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <div class="imgbox">
+            <img src="images/logo.png" alt="Nosotros" />
+          </div>
+        </div>
+        <div class="col50">
+          <h2 class="titleText"><span>N</span>osotros</h2>
+          <p>
+            <span>Tripéate</span>, somos una agencia de camping que nace por el
+            deseo de vivir y compartir una experiencia única con la naturaleza.
+            Nuestros fundadores, <span>Nicole Jiménez Sánchez</span> y
+            <span>Luis Pérez Sánchez</span> deseaban experimentar una forma
+            diferente de explorar los rincones de la isla de forma eco amigable
+            y responsable.<br /><br />Es por esto que <span>Tripéate</span>, con
+            las características necesarias para respetar y educar a las personas
+            que desean tener una experiencia diferente a la hora de acampar,
+            permitiendo viajes seguros saliendo desde la puerta de su hogar a
+            personas mayores a 18 años.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--SECTION ABOUT US ENDS-->
+    <!--SECTION MISION STARTS -->
+    <section class="mision" id="mision">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titleText"><span>M</span>isión</h2>
+          <p>
+            Brinda oportunidades de conocer lugares, personas y costumbres,
+            encantando, sorprendiendo y superando las expectativas de nuestros
+            viajeros con una experiencia única para todos, de una manera
+            sostenible y amigable con el medio ambiente.
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgbox">
+            <img src="images/mision.jpg" alt="mision" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION MISION ENDS-->
+    <!--SECTION VISION STARTS-->
+    <section class="vision" id="vision">
+      <div class="row">
+        <div class="col50">
+          <div class="imgbox">
+            <img src="images/vision.jpg" alt="vision" />
+          </div>
+        </div>
+        <div class="col50">
+          <h2 class="titleText"><span>V</span>isión</h2>
+          <p>
+            Ayudar a preservar los recursos naturales, educando a cada viajero
+            con la experiencia extraordinaria de cada una de las excursiones.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--SECTION VISION ENDS-->
+    <!--SECTION VALORES STARTS-->
+    <section class="valores" id="valores">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titleText"><span>V</span>alores</h2>
+          <ul>
+            <li>Responsabilidad</li>
+            <li>Servicio memorable</li>
+            <li>Trabajo en equipo</li>
+            <li>Puntualidad</li>
+            <li>Fraternidad</li>
+            <li>Comunidad</li>
+            <li>Tolerancia</li>
+          </ul>
+        </div>
+        <div class="col50">
+          <div class="imgbox">
+            <img src="images/equipos.jpg" alt="valore" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION VALORES ENDS-->
+    <!--SECTION SERVICES STARTS-->
+    <div class="services-section" id="services">
+      <div class="inner-width">
+        <h2 class="titleText">Nuestros <span>S</span>ervicios</h2>
+        <div class="border"></div>
+        <div class="services-container">
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-bus-alt"></i>
+            </div>
+            <div class="service-title">Trasporte</div>
+            <div class="services">
+              <p>
+                Ofrecemos servicio de trasporte en caso de organizar tu propia
+                excursión <span>RD$916.00</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-bed"></i>
+            </div>
+            <div class="service-title">Sleeping bag</div>
+            <div class="services">
+              <p>
+                En <span>Tripéate</span> ofrecemos servicio de alquiler de
+                bolsas de dormir o sleeping bag.<span class="precio"
+                  >RD$529.00</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="service-title">Tienda de acampar</div>
+            <div class="services">
+              <p>
+                En <span>Tripéate</span> ofrecemos el servicio de alquiler de
+                tiendas para acampar.<span class="precio">RD$1224.00</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-route"></i>
+            </div>
+            <div class="service-title">Excursión sin dormida</div>
+            <div class="services">
+              <p>
+                Incluyen: transporte desde casa, brindis en autobús, visita de
+                playas en provincia, permiso de parque, salvavidas en caso de
+                ser necesario y kit de primeros auxilios<span class="precio"
+                  >RD$1890.00</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="service-title">Excursión básica</div>
+            <div class="services">
+              <p>
+                Incluye: estancia por 2 días y una noche, staff de ambiente,
+                transporte, casa de campaña, desayuno, almuerzo, cena y brindis
+                en autobús. Kit de primeros auxilios, pago de entradas y guías
+                locales, chalecos salvavidas y transporte dentro de las
+                provincias)<span class="precio">RD$3,838.00</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-globe-europe"></i>
+            </div>
+            <div class="service-title">Excursión premium</div>
+            <div class="services">
+              <p>
+                Incluye: estancia por 2 días y una noche, staff de ambiente,
+                transporte, casa de campaña, desayuno, almuerzo, cena y brindis.
+                Kit de primeros auxilios, pago de entradas y guías locales,
+                chalecos salvavidas, bolsa de dormir, t-shirt del viaje, fotos
+                profesionales del viaje y transporte dentro de las
+                provincias)<span class="precio">RD$4,444.00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SECTION SERVICES ENDS-->
+    <!--SECTION GALERY STARTS-->
+    <section class="galery" id="galery">
+      <div class="title">
+        <h2 class="titleText"><span>G</span>alería</h2>
+        <p>Lugares que solemos visitar</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/vallenuevo.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Valle Nuevo, Constanza</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/montanaredonda.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Montaña Redonda, Miches</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/playarincon.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Playa Rincón y Río Caño Frío, Las Galeras</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/playaelvalle.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Playa El Valle, Samaná</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/islacabra.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Isla Cabra, Monte Cristi</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/bahia.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Bahía de las Águilas, Pedernales</h3>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <a class="btn" href="">Ver todos</a>
+      </div>
+    </section>
+    <!--SECTION GALERY ENDS-->
+    <!--SECTION TEAM STARTS-->
+    <section class="team" id="team">
+      <div class="title">
+        <h2 class="titleText">Nuestro <span>E</span>quipo</h2>
+        <p>Conoce a nuestro equipo</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/nicole.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Nicole Jímenez</h3>
+            <p>Gerente General</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/hombre.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Luis Pérez Sánchez</h3>
+            <p>Director de Logística</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/mujer.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Magdalena Gómez</h3>
+            <p>Administrativo</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/hombre2.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Adrián Sepúlveda</h3>
+            <p>Director Creativo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION TEAMS ENDS-->
+    <!--SECTION TESTIMONIAL STARTS-->
+    <section class="testimonial" id="testimonial">
+      <div class="title white">
+        <h2 class="titleText">Nuestros <span>C</span>lientes dicen</h2>
+        <p>Clientes que han tripeado con nosotros.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/vicarly.jpg" alt="foto cliente" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+              quo quas quam nulla praesentium veritatis ipsum doloremque
+              distinctio odit temporibus laborum recusandae laboriosam nostrum
+              quidem et sunt, a provident laudantium.
+            </p>
+            <h3>Vicarly Encarnación</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/jadiel.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+              quo quas quam nulla praesentium veritatis ipsum doloremque
+              distinctio odit temporibus laborum recusandae laboriosam nostrum
+              quidem et sunt, a provident laudantium.
+            </p>
+            <h3>Jadiel Adrián</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="images/sofia.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+              quo quas quam nulla praesentium veritatis ipsum doloremque
+              distinctio odit temporibus laborum recusandae laboriosam nostrum
+              quidem et sunt, a provident laudantium.
+            </p>
+            <h3>Sofía Pelgrin</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION TESTIMONIAL ENDS-->
+    <!--SECTION CONTANT STARTS-->
+    <section class="contact" id="contact">
+      <div class="title white">
+        <h2 class="titleText"><span>C</span>ontacto</h2>
+        <p>Escribenos si necesitas más información</p>
+      </div>
+      <div class="contactform">
+        <h3>Dejanos tu mensaje</h3>
+        <div class="inputbox">
+          <input type="text" placeholder="Nombre" />
+        </div>
+        <div class="inputbox">
+          <input type="text" placeholder="Email" />
+        </div>
+        <div class="inputbox">
+          <textarea placeholder="Mensaje"></textarea>
+        </div>
+        <div class="inputbox">
+          <input type="submit" value="Enviar" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        Creado por <span>Nicole Jímenez</span> &copy; Copyright 2021 | Todos los
+        derechos reservados.
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navbar = document.querySelector(".navbar");
+        menuToggle.classList.toggle("active");
+        navbar.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
